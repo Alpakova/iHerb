@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#page{
+    font-family: FontUniversalPrimary,FontUniversalFallback,DroidArabicKufi,Arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+
+header{
+    padding: 70px 0 0 0;
+    text-align: center;
+    border-bottom: none;
+    position: relative;
+}
+
+.logo-iherb {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+.logo-caption {
+    padding: 10px;
+    text-align: center;
+    margin: 8px 0 32px 0;
+    color: #121212;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login-box {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    width: 768px;
+    position: relative;
+    padding: 20px 40px 40px;
+    margin: auto;
+    border: solid 1px #e0e0e0;
+    border-radius: 8px;
+}
+
+.h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.column-one {
+    display: inline-block;
+    width: 399px;
+    padding: 0 10px;
+    font-size: 18px;
+    margin: auto;
+    font-weight: 400;
+    border-right: 1px solid #ddd;
+}
+
+.form-field {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    position: relative;
+    height: 48px;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 10px;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.verification-link {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.link-forgot-password, .link-code {
+    font-size: 14px;
+    color: #2c7500;
+    text-decoration: underline;
+}
+
+.go-to-site {
+    position: relative;
+    width: 100%;
+}
+
+input[type="submit"] {
+    position: relative;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #458500;
+    border: 1px solid #458500;
+    outline: 0;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.separator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent calc(50%),
+            #e0e0e0 calc(50%),
+            #e0e0e0 calc(50% + 1px),
+            transparent calc(50% + 1px),
+            transparent 100%
+        );
+    margin: 10px 0;
+}
+.separator span {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 5px;
+    background-color: #ffffff;
+}
+
+.registration-form {
+    width: 100%;
+}
+
+.registration-form-open {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    font-size: 14px;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.registration-form-open:hover {
+    text-decoration: underline;
+    background-color: #f5f5f5;
+}
+
+.column-two {
+    display: inline-block;
+    width: 399px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.user-agreement {
+    font-size: 12px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.45em;
+    letter-spacing: 0.01em;
+}
+
+.user-agreement a {
+    color: #2c7500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sing-in-google {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 12px;
+    color: white;
+    background-color: #4085f4;
+    cursor: pointer;
+}
+
+.sign-in-with-google {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sing-in-facebook {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 12px;
+    background-color: #4267b2;
+    cursor: pointer;
+}
+
+.sign-in-with-facebook {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.need-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.need-help a {
+    font-size: 14px;
+    color: #2c7500;
+    text-decoration: underline;
+    margin: auto;
+    padding: 20px 40px 40px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+    height: 100px;
+    font-weight: 400;
+    width: 680px;
+    margin: 32px auto auto;
+}
+
+footer a {
+    color: #2c7500;
+    text-decoration: underline;
+    line-height: 1.45em;
+    letter-spacing: 0.01em;
+}
+
+
+
+
+
+
+
+
+
